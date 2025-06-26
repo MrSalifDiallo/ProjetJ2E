@@ -77,7 +77,7 @@ FirstAppJEE/
 #### Prerequisites
 - **Java 17** or higher
 - **Maven 3.8+**
-- **Apache Tomcat 10** or compatible servlet container
+- **Apache Tomcat 11** (recommended) or compatible servlet container
 - **Git**
 
 #### Installation Steps
@@ -98,10 +98,17 @@ FirstAppJEE/
    mvn package
    ```
 
-4. **Deploy to Tomcat**
+4. **Deploy to Tomcat 11**
    - Copy the generated `FirstAppJEE.war` from `target/` directory
-   - Deploy to your Tomcat `webapps` directory
-   - Start Tomcat server
+   - Deploy to your Tomcat 11 `webapps` directory
+   - Start Tomcat 11 server using:
+     ```bash
+     # Windows
+     startup.bat
+     
+     # Linux/Mac
+     ./startup.sh
+     ```
 
 5. **Access the application**
    ```
@@ -221,7 +228,7 @@ FirstAppJEE/
 #### Prérequis
 - **Java 17** ou supérieur
 - **Maven 3.8+**
-- **Apache Tomcat 10** ou conteneur de servlets compatible
+- **Apache Tomcat 11** (recommandé) ou conteneur de servlets compatible
 - **Git**
 
 #### Étapes d'Installation
@@ -242,10 +249,17 @@ FirstAppJEE/
    mvn package
    ```
 
-4. **Déployer sur Tomcat**
+4. **Déployer sur Tomcat 11**
    - Copier le fichier `FirstAppJEE.war` généré depuis le répertoire `target/`
-   - Déployer dans le répertoire `webapps` de Tomcat
-   - Démarrer le serveur Tomcat
+   - Déployer dans le répertoire `webapps` de Tomcat 11
+   - Démarrer le serveur Tomcat 11 en utilisant :
+     ```bash
+     # Windows
+     startup.bat
+     
+     # Linux/Mac
+     ./startup.sh
+     ```
 
 5. **Accéder à l'application**
    ```
