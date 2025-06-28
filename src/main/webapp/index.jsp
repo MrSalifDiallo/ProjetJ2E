@@ -19,5 +19,12 @@
 <a href="utilisateur-servlet">Utilisateur</a>
 <br>
 
+<br>
+<a href="login-servlet">Login</a>
+<br>
+<br>
+<a href="register-servlet">Register</a>
+<br>
+
 </body>
 </html>
